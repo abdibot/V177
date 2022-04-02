@@ -212,14 +212,14 @@ require('./api/apiramdani.js')
 nocache('../api/apiramdani.js', module => console.log(color('[WARN]', 'yellow'), color(`'${module}'`, 'yellow'), 'File is updated!'))
 
 const starts = async (Ramdani = new WAConnection()) => {
-    CFonts.say(`RAMDANI OFFICIAL`, {
+    CFonts.say(`VANZZ OFC`, {
         font: 'chrome',
         align: 'center',
         gradient: ['red', 'magenta']
       })
     Ramdani.logger.level = 'warn'
 
-	console.log(color(`${spc2}           [ • CREATOR BY RAMDANI OFFICIAL • ]` ,`${randomcolors}`))
+	console.log(color(`${spc2}           [ • CREATOR BY VANZZ OFC • ]` ,`${randomcolors}`))
 console.log(color(`${spc4}                       < ============================================ >`, `${randomcolors}`))
 console.log(color(`${spc3}                    [•]`, `${randomcolors}`), color(`Hai         : VANZZ OFC`, `${randomcolors}`))
 console.log(color(`${spc3}                    [•]`, `${randomcolors}`), color(`Bot Version : 17.0.0`, `${randomcolors}`))
@@ -240,7 +240,7 @@ console.log(color(`${spc4}                       < =============================
 	Ramdani.on('connecting', () => {
 		console.log(color('[ VANZZ OFC ]', 'aqua'), color('Menyambungkan!'));
 	})
-const ftroli = { key: { fromMe: false, "participant": "0@s.whatsapp.net", "remoteJid": "6289512545999-1604595598@g.us" }, "message": { orderMessage: { itemCount: 500, status: 200, thumbnail: fs.readFileSync(`./media/foto/thumb.jpg`), surface: 200, message: `【 VANZZ BOTZ 】`, orderTitle: 'Ramdani Official', sellerJid: '0@s.whatsapp.net' } }, contextInfo: { "forwardingScore": 999, "isForwarded": true }, sendEphemeral: true }
+const ftroli = { key: { fromMe: false, "participant": "0@s.whatsapp.net", "remoteJid": "6289512545999-1604595598@g.us" }, "message": { orderMessage: { itemCount: 500, status: 200, thumbnail: fs.readFileSync(`./media/foto/thumb.jpg`), surface: 200, message: `【 VANZZ BOTZ 】`, orderTitle: 'VANZZ OFC', sellerJid: '0@s.whatsapp.net' } }, contextInfo: { "forwardingScore": 999, "isForwarded": true }, sendEphemeral: true }
 const spinner = { 
   "interval": 120,
   "frames": [
